@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  height: 400px;
+  width: 1000px;
+  margin: 50px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.login__container--form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login__container--form label {
+  font-size: 14px;
+}
+.login__container--register {
+  font-size: 14px;
+}
+.login__container--register span {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.login__container--register span:hover {
+  color: white;
+  text-decoration: underline;
+}
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+::placeholder {
+  color: white;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+.login__container--poster {
+  border-radius: 40px;
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+
+.login__container--logo {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
